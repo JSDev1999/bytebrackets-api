@@ -14,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// check
 // connect to db
 mongoose
   .connect(process.env.MONGO_URL, {
